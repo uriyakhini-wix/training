@@ -17,6 +17,8 @@
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
+            margin: auto;
+            width: 80%
         }
 
         .main-container {
@@ -24,19 +26,28 @@
         }
 
         .topic {
+            margin-right: auto;
+            margin-bottom: 25px;
+            margin-left: 37px;
             height: 120px;
             border-radius: 5px;
             background: white;
             display: flex;
-            width: 40%;
-            margin: 15px;
+            width: calc(50% - 75px);
             flex-direction: row;
         }
 
         .topic-content {
+            padding: 40px;
             width: 90%;
             margin: auto;
             font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: row;
+            align-content: stretch;
+        }
+
+        .topic-text {
             display: flex;
             flex-direction: column;
         }
@@ -60,13 +71,13 @@
         }
 
         .title:hover {
-            color: rgba(53, 91, 115);
+            cursor: pointer;
+            color: #3899ec;
         }
 
         .arrow {
-            display: flex;
-            width: 4%;
-            float: right;
+            margin-left: auto;
+            margin-top: auto;
         }
     </style>
 </head>
@@ -79,30 +90,79 @@
         <div class="main-section">
             <div class='topic'>
                 <div class='topic-content'>
-                    <div class='type'>ARTICLE</div>
-                    <div class='title'>
-                        Optimizing Your Site's Content for SEO
-                        <div class='arrow'>></div>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
                     </div>
-
+                    <div class='arrow'>></div>
                 </div>
             </div>
             <div class='topic'>
                 <div class='topic-content'>
-                    <div class='type'>ARTICLE</div>
-                    <div class='title'>topic 2</div>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
                 </div>
             </div>
             <div class='topic'>
                 <div class='topic-content'>
-                    <div class='type'>ARTICLE</div>
-                    <div class='title'>topic 3</div>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
                 </div>
             </div>
             <div class='topic'>
                 <div class='topic-content'>
-                    <div class='type'>ARTICLE</div>
-                    <div class='title'>topic 4</div>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
+                </div>
+            </div>
+            <div class='topic'>
+                <div class='topic-content'>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
+                </div>
+            </div>
+            <div class='topic'>
+                <div class='topic-content'>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
+                </div>
+            </div>
+            <div class='topic'>
+                <div class='topic-content'>
+                    <div class='topic-text'>
+                        <div class='type'>ARTICLE</div>
+                        <div class='title'>
+                            Optimizing Your Site's Content for SEO
+                        </div>
+                    </div>
+                    <div class='arrow'>></div>
                 </div>
             </div>
         </div>
